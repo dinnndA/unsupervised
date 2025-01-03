@@ -10,7 +10,7 @@ st.title("Wine Clustering with K-Means")
 
 try:
     # Load model .pkl
-    with open("k_meanswine.pkl", "rb") as file:
+    with open("k-meanswine.pkl", "rb") as file:
         kmeans_model = pickle.load(file)
 
     # Simulate a dataset
